@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "out-tsc/jira-frontend/base",
+    "outDir": "out-tsc/frontend/base",
     "incremental": true,
     "composite": true,
     "target": "ES2020",
