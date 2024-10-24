@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./tsDist/main",
+    "types": ["node"]
+  },
+  "include": ["./packages/**/src/**/*.ts"],
+  "files": ["./packages/bar/test.ts"],
+  "exclude": ["**/test.ts"]
+}

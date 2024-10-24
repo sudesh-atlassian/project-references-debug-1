@@ -1,0 +1,9 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "bar": "node index.js"
+  },
+  "license": "MIT"
+}

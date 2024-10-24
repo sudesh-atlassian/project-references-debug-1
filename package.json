@@ -1,0 +1,14 @@
+{
+  "name": "ts-project-references",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "5.6.3"
+  },
+  "packageManager": "yarn@4.5.1"
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../tsDist/bar"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./test.ts"],
+  "references": []
+}

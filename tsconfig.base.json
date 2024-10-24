@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "out-tsc/jira-frontend/base",
+    "incremental": true,
+    "composite": true,
+    "target": "ES2020",
+    "lib": ["ES2022", "DOM"],
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment",
+    "types": [],
+    "module": "ESNext",
+    "moduleResolution": "Node10",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": false,
+    "verbatimModuleSyntax": true,
+    "emitDeclarationOnly": true,
+    "paths": {
+      "bar/clean": ["packages/bar/src/clean.ts"]
+    }
+  }
+}
